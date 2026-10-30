@@ -1,0 +1,22 @@
+:root { --petrol: #0F4C5C; --petrol-acik: #17697D; --zemin: #F4F7F8; --kart: #FFFFFF; --yazi: #14262B; --soluk: #5F6B6E; --cizgi: #DCE5E7; --yesil: #22C55E; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--zemin); color: var(--yazi); font: 17px/1.6 Manrope, -apple-system, "Segoe UI", Roboto, sans-serif; }
+header { background: linear-gradient(160deg, #17697D 0%, #0A3540 100%); color: #fff; padding: 40px 20px 36px; }
+header .ic, main { max-width: 760px; margin: 0 auto; }
+header a { color: #fff; text-decoration: none; display: inline-flex; align-items: center; gap: 14px; }
+header img { width: 56px; height: 56px; border-radius: 13px; }
+header .ad { font-size: 26px; font-weight: 800; letter-spacing: -0.02em; }
+header h1 { margin: 26px 0 0; font-size: 34px; line-height: 1.15; letter-spacing: -0.02em; }
+header p { margin: 8px 0 0; color: #CFE6EB; }
+main { padding: 28px 20px 60px; }
+section { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 16px; padding: 22px 22px 8px; margin-bottom: 16px; }
+h2 { font-size: 20px; margin: 0 0 10px; color: var(--petrol); letter-spacing: -0.01em; }
+h3 { font-size: 17px; margin: 18px 0 4px; }
+p, li { margin: 0 0 14px; }
+ul { padding-left: 22px; margin: 0 0 14px; }
+a { color: var(--petrol-acik); }
+.not { color: var(--soluk); font-size: 15px; }
+.dugme { display: inline-block; background: var(--petrol); color: #fff; text-decoration: none; padding: 12px 20px; border-radius: 12px; font-weight: 700; margin: 4px 8px 14px 0; }
+footer { max-width: 760px; margin: 0 auto; padding: 0 20px 40px; color: var(--soluk); font-size: 14px; }
+footer a { color: var(--soluk); }
