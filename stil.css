@@ -20,3 +20,4 @@ a { color: var(--petrol-acik); }
 .dugme { display: inline-block; background: var(--petrol); color: #fff; text-decoration: none; padding: 12px 20px; border-radius: 12px; font-weight: 700; margin: 4px 8px 14px 0; }
 footer { max-width: 760px; margin: 0 auto; padding: 0 20px 40px; color: var(--soluk); font-size: 14px; }
 footer a { color: var(--soluk); }
+.eksik { background: #FEF3C7; color: #92400E; padding: 1px 6px; border-radius: 6px; font-weight: 700; }
